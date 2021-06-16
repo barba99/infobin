@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <LINK REL=StyleSheet HREF="estilos.css"
+        <link href='https://fonts.googleapis.com/css?family=Bungee Shade' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Grenze' rel='stylesheet'>
+    </head>
+    <body>
+    <h1 class="hd">INFORMACION DE IP</h1>
+    <table class="tbl">
+        <tr>
+           <td class="a">DIRECCION IP</td>
+           <td class="b" id="ip"></td>
+           </tr>
+        <tr>
+            <td class="a">PAIS</td>
+            <td class="b" id="coun">    </td>
+        </tr>
+        <tr>
+            <td class="a">ESTADO</td>
+            <td class="b" id="stat"></td>
+        </tr>
+        <tr>
+            <td class="a">CIUDAD</td>
+            <td class="b" id="city"></td>
+        </tr>
+        <tr>
+            <td class="a">SERVICIO SIM</td>
+            <td class="b" id="sim"></td>
+        </tr>
+        <tr>
+            <td class="a">ZONA HORARIA</td>
+            <td class="b" id="timezone"></td>
+        </tr>
+            <tr>
+            <td class="a">CODIGO POSTAL</td>
+            <td class="b" id="postal"></td>
+            </tr>
+        <tr>
+        <td class="a">TIPO DE MONEDA</td>
+        <td class="b" id="currency"></td>
+        </tr>
+    </table>
+    <h1 class="hd">BY JORGE BARBA</h1>
+    <table class="tbl">
+    </body>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open('GET','https://ipapi.co/json/',false);
+        xhr.send();
+        var res=JSON.parse(xhr.response);
+        document.getElementById("coun").innerHTML=res["country_name"];
+        document.getElementById("stat").innerHTML=res["region"];
+        document.getElementById("city").innerHTML=res["city"]+" ";
+        document.getElementById("sim").innerHTML=res["org"];
+        document.getElementById("postal").innerHTML=res["postal"];
+        document.getElementById("ip").innerHTML=res["ip"];
+        document.getElementById("timezone").innerHTML=res["timezone"];
+    document.getElementById("currency").innerHTML=res["currency"];
+    </script>
+</html>

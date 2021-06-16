@@ -1,0 +1,30 @@
+body{
+    background-color:black;
+}
+.hd{
+    color:#05bdfa;
+    font-family:'Bungee Shade';
+}
+.tbl{
+    border-collapse:collapse;
+    font-weight:bold;
+}
+.a{
+    text-align:right;
+    border:2px solid #fa071c;
+    border-right:2px solid black;
+    padding:10px;
+    background-color:#0e29f0;
+    color:#f2fa07;
+    font-family:Bungee;
+    font-size:15px;
+}
+.b{
+    border:2px solid #0e29f0;
+    border-left:2px solid black;
+    padding:10px;
+    background-color:#fa071c;
+    color:#1dfa05;
+    font-family:Grenze;
+    font-size:20px;
+}
