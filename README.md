@@ -16,7 +16,7 @@ BIN SON LAS SIGLAS EN INGLÉS DE
 
 
 
-**Web info bin **
+**Web info bin**
 https://barba99.github.io/infobin/
 
 **Ip info**
