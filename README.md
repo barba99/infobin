@@ -1,16 +1,17 @@
 # Bin-checker
-BIN (BANK IDENTIFICATION NUMBER)
-BIN stands for-BANK IDENTIFICATION NUMBER A BIN
+BIN (NÚMERO DE IDENTIFICACIÓN DEL BANCO)
+ BIN son las siglas de-BANK IDENTIFICATION NUMBER A BIN
 
-is the starting 4 to 6 digits that appear on a credit/debit card. 
+ son los primeros 4 a 6 dígitos que aparecen en una tarjeta de crédito / débito.
 
-The BIN  uniquely identifies the institution/bank 
-
-## Data
-- [x] Type
-- [x] Brand
-- [x] Bank
-- [x] Credit / Debit
-- [x] Country
+ El BIN identifica de forma única a la institución / banco
+## Datos
+- [x] Tipo
+- [x] Marca
+- [x] Banco
+- [x] Credito / Debito
+- [x] País
 
 https://barba99.github.io/infobin/
+
+https://barba99.github.io/infobin/ip
